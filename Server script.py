@@ -16,7 +16,7 @@ import numpy
 
 
 
-engine = create_engine('mysql://db:74626731@localhost:8080/newdb')
+engine = create_engine('mysql://db_user:<$+%-jwJPwHEzOBVF-b@localhost:3306/gryphonDB')
 
 # Get the base class of our models
 Base = declarative_base()
